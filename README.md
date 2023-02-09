@@ -13,7 +13,9 @@ This document explains how to build Python3 Flask, and deploy and run the applic
 #### 
 Open the terminal and run minikube start and then run [minikube tunnel](https://minikube.sigs.k8s.io/docs/handbook/accessing/#using-minikube-service-with-tunnel)
 ```sh
-$minikube start
+$minikube start --subnet=192.168.49.0
+        Subnet to be used on kic cluster. If left empty, minikube will choose subnet address, beginning from
+        192.168.49.0. (docker and podman driver only)
 # minikube tunnel session should be kept open during the test session.
 $minikube tunnel
 ```

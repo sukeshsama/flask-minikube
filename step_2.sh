@@ -2,7 +2,7 @@
 
 echo "starting minikube"
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++"
-minikube start
+minikube start --subnet=192.168.49.0
 alias kubectl="minikube kubectl --"
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++"
