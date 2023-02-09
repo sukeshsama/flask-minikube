@@ -17,8 +17,8 @@ $minikube start
 # minikube tunnel session should be kept open during the test session.
 $minikube tunnel
 ```
-Download the **minikube-flask.zip** or **minikube_flask.tar** file from [GitHub](https://github.com/sukeshsama/flask-minikube)and navigate to the extracted folder and execute the run.sh file
-or Download the source code from [GitHub](https://github.com/sukeshsama/flask-minikube), navigate to the extracted folder, and execute the run.sh file
+Download the **minikube-flask.zip** or **minikube_flask.tar.gz** file from [GitHub](https://github.com/sukeshsama/flask-minikube) and navigate to the extracted location and execute the run.sh file
+or Download the source code from [GitHub](https://github.com/sukeshsama/flask-minikube), navigate to the dowloaded directory, and execute the run.sh file
 ```sh
 # Open a new terminal tab and execute the script
 ./run.sh
